@@ -1,0 +1,32 @@
+# SYMBA Evaluation Task — GSoC 2026, Project 3.4
+# Python 3.11 | Tested on Apple M3 Air (MPS) and Google Colab T4 (CUDA)
+#
+# Install: pip install -r requirements.txt
+# Conda env: conda create -n symba-eval python=3.11 && conda activate symba-eval
+
+# Core deep learning
+torch==2.6.0
+torchvision==0.21.0
+
+# Scientific computing
+numpy==2.3.5
+scipy==1.15.2
+sympy==1.13.1
+
+# Data handling
+pandas==2.2.3
+
+# Visualization
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Progress bars
+tqdm==4.67.1
+
+# Notebook support
+jupyter==1.1.1
+notebook==7.3.3
+ipykernel==6.29.5
+
+# Google Colab extras (pre-installed on Colab — no action needed there)
+# google-colab

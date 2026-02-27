@@ -1,0 +1,18 @@
+{
+  "total": 594,
+  "qed": 360,
+  "qcd": 234,
+  "qed_train": 288,
+  "qed_val": 36,
+  "qed_test": 36,
+  "qcd_train": 187,
+  "qcd_val": 23,
+  "qcd_test": 24,
+  "vocab_size": 192,
+  "max_src_len": 1569,
+  "max_tgt_len": 1632,
+  "amp_tok_len_max": 2072,
+  "sq_tok_len_max": 1622,
+  "amp_tok_len_mean": 277.0,
+  "sq_tok_len_mean": 218.3
+}

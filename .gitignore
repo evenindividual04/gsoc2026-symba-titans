@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# PyTorch
+*.pth
+*.ckpt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+symba-eval/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+.qodo/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+compile*.log
+
+# Keep important files
+!latex-report/report.pdf
+
+# Data files (optional - uncomment if too large)
+# data/raw/*.tar.gz
+# data/raw/*.zip
+# *.pkl
+
+# Model weights (optional - use Git LFS if needed)
+# weights/**/*.pt
+# weights/**/*.ckpt
+
+# Temporary files
+tmp/
+temp/
+*.tmp
