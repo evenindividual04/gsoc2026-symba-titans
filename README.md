@@ -48,7 +48,7 @@ evaluation-task/
 │
 ├── notebooks/
 │   ├── notebook1_preprocessing.ipynb               ← Task 1.2: data & tokenizer
-│   ├── notebook2_transformer_baseline_final.ipynb  ← Task 2: baseline
+│   ├── notebook2_transformer_baseline.ipynb        ← Task 2: baseline
 │   └── notebook3_titans_mal.ipynb                  ← Task 3.4: Titans MAL
 │
 ├── AnmolSen_GSoC26_SYMBA-Eval_Report.pdf           ← comprehensive technical writeup (45 pages)
@@ -79,7 +79,7 @@ tokens while preserving every symbol as a single meaningful unit. See `ARCHITECT
 
 ---
 
-### Task 2 — Transformer Baseline (`notebook2_transformer_baseline_final.ipynb`)
+### Task 2 — Transformer Baseline (`notebook2_transformer_baseline.ipynb`)
 
 - **Architecture:** Standard encoder-decoder Transformer (Vaswani et al., 2017), Pre-Norm
 - **Config:** `d_model=128`, `nhead=4`, `3+3 layers`, `dim_ff=512` → **1.44M parameters**
